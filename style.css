@@ -1,0 +1,172 @@
+
+h1{
+    border:solid 4px;
+    border-color: black;
+    font-size: 50px;
+    color: red;
+background: #333;
+
+}
+
+h1 span{
+    color: crimson;
+}
+
+    *{
+    padding: 0;
+    margin: 0;
+}
+.register{
+    opacity:0.6;
+}
+
+.register form h2{
+    font-size: 40px;
+    color: #333;
+
+}
+
+
+
+body{
+    background-image: url(images/DQFG4501.JPG) ;
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+ul{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+    
+}
+ul li a{
+    
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    transition: .8s ease background;
+    cursor: pointer;
+    border-radius: 7px;
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px 3px rgba(255,255,255,0.5);
+    
+}
+@media screen and (max-width:600px){
+    ul li a{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+.footer{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.register{
+    margin: auto;
+    padding: 10% 0 0;
+    width: 350px;
+}
+
+.login{
+    position: relative;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0 auto 100px;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    padding: 50px;
+}
+    
+.register form .form-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: capitalize;
+    /* background: crimson; */
+    /* color: #fff; */
+}
+.register form .form-btn:hover{
+    background: crimson;
+    color: #fff;
+}
+
+.register form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.header{
+    float: right;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: capitalize;
+
+
+}
+ul{
+  
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+   
+}
+ul li{
+    float: right;
+}
+ul li a{
+   
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    transition: .3s ease background;
+
+    
+}
+
+ul li:hover{
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+
+.input{
+    font-size: 15px;
+    border-width: 1px solid gray;
+    padding: 10px;
+    margin-top: 10pxpx;
+    height: 20px;
+    border-radius: 20px;
+}

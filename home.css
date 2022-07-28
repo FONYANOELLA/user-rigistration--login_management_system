@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background: url(images/DQFG4501.JPG);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 150vh;
+}
+.main{
+    height: 150px;
+}
+.img{
+  
+   margin-left: 20px;
+}
+ul{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+    
+}
+ul li a{
+    
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    transition: .8s ease background;
+    cursor: pointer;
+    border-radius: 7px;
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px 3px rgba(255,255,255,0.5);
+    
+}
+.container{
+    border-left: 6px solid black;
+    width: 900px;
+    margin-left: 200px;
+}
+h2{
+    margin-left: 10px;
+    color: white;
+    margin-top: 150px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 6px 6px 3px rgba(0,0,0,1);
+}
+span{
+    color: orange;
+}
+@media screen and (max-width:600px){
+    ul li a{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
